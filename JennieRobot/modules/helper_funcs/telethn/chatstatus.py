@@ -1,5 +1,5 @@
-from TGNRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from TGNRobot import DRAGONS
+from JennieRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from JennieRobot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
