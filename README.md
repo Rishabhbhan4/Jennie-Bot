@@ -42,12 +42,8 @@ Can be found on Telegram as [Jennie Bot 💞](https://t.me/JennieKim1_bot)</br>
 ## 🆂🆄🅿🅿🅾🆁🆃
 [![Zaid](https://img.shields.io/badge/Jennie-Channel-red?style=for-the-badge&logo=telegram)](https://t.me/RishabhHelpBot)</br></br>
 [![Zaid](https://img.shields.io/badge/Lisa-Group-red?style=for-the-badge&logo=telegram)](https://t.me/lisaSupportChat)</br></br>
-[![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/Timesisnotwaiting)
+[![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/Rishu_05)
 
-## 🆃🅷🅰🅽🅺🆂 🅵🅾🆁 🅲🅾🅳🅴🆂...
 
- - Saitama Robot - for Modules
- - Layla Bot - for Some Help modules
- - innexia - for some Button And Helps
 
 
