@@ -1,4 +1,4 @@
 @echo off
-TITLE TGN Robot
+TITLE Jennie Bot
 :: Enables virtual env mode and then starts Rika
-env\scripts\activate.bat && py -m TGNRobot
+env\scripts\activate.bat && py -m Jennie-Bot
