@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/TGNRobot
-RUN git clone -b shiken https://github.com/Itsunknown-12/TGN-Robot /root/TGNRobot
-WORKDIR /root/TGNRobot
+# Copy Python Requirements to /root/JennieRobot
+RUN git clone -b shiken https://github.com/Rishabhbhan4/Jennie-Bot /root/JennieRobot
+WORKDIR /root/JennieRobot
 
-#Copy config file to /root/TGNRobot/TGNRobot
-COPY ./TGNRobot/sample_config.py ./TGNRobot/config.py* /root/TGNRobot/TGNRobot/
+#Copy config file to /root/JennieRobot/JennieRobot
+COPY ./JennieRobot/sample_config.py ./JennieRobot/config.py* /root/JennieRobot/JennieRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","TGNRobot"]
+CMD ["python3","-m","JennieRobot"]
