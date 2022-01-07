@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from TGNRobot import LOGGER
-from TGNRobot.modules.users import get_user_id
+from JennieRobot import LOGGER
+from JennieRobot.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
