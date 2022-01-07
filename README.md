@@ -10,7 +10,7 @@
 </a>
 
 <p align = "center">
-<a href = "https://github.com/Itsunknown-12/Zaid-Robot">
+<a href = "https://github.com/Rishabhbhan4/Jennie-Bot">
 <img src = "https://forthebadge.com/images/badges/open-source.svg">
 </p>
 </a>
@@ -29,22 +29,19 @@
 - Easy To Use
 - Random Logos
 
-Can be found on Telegram as [TGN 💞](https://t.me/TGN_RO_BOT)</br>
+Can be found on Telegram as [Jennie Bot 💞](https://t.me/JennieKim1_bot)</br>
 
-
-## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=ITZ-ZAID&repo=TGN-Robot&theme=dark)
 
 ## 🅓🅔🅟🅛🅞🅨
-[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ITZ-ZAID/TGN-Robot)
+[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rishabhbhan4/Jennie-Bot)
 
 
 ## 🆅🅴🆁🅸🅰🅱🅻🅴🆂
 [ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ](https://github.com/Itsunknown-12/Zaid-Robot/blob/master/Configuration)
 
 ## 🆂🆄🅿🅿🅾🆁🆃
-[![Zaid](https://img.shields.io/badge/Zaid-Channel-red?style=for-the-badge&logo=telegram)](https://t.me/SUPERIOR_BOTS)</br></br>
-[![Zaid](https://img.shields.io/badge/Superior-Group-red?style=for-the-badge&logo=telegram)](https://t.me/SUPERIOR_SUPPORT)</br></br>
+[![Zaid](https://img.shields.io/badge/Jennie-Channel-red?style=for-the-badge&logo=telegram)](https://t.me/RishabhHelpBot)</br></br>
+[![Zaid](https://img.shields.io/badge/Lisa-Group-red?style=for-the-badge&logo=telegram)](https://t.me/lisaSupportChat)</br></br>
 [![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/Timesisnotwaiting)
 
 ## 🆃🅷🅰🅽🅺🆂 🅵🅾🆁 🅲🅾🅳🅴🆂...
