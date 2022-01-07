@@ -37,7 +37,7 @@ Can be found on Telegram as [Jennie Bot 💞](https://t.me/JennieKim1_bot)</br>
 
 
 ## 🆅🅴🆁🅸🅰🅱🅻🅴🆂
-[ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ](https://github.com/Itsunknown-12/Zaid-Robot/blob/master/Configuration)
+[ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ](https://github.com/Rishabhbhan4/Jennie-Bot/blob/master/Configuration)
 
 ## 🆂🆄🅿🅿🅾🆁🆃
 [![Zaid](https://img.shields.io/badge/Jennie-Channel-red?style=for-the-badge&logo=telegram)](https://t.me/RishabhHelpBot)</br></br>
