@@ -4,9 +4,9 @@ from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNRobot import arq
-from TGNRobot.pyrogramee.errors import capture_err
-from TGNRobot import pbot as app
+from JennieRobot import arq
+from JennieRobot.pyrogramee.errors import capture_err
+from JennieRobot import pbot as app
 
 
 
