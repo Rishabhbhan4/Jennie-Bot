@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from telethon import events
 
-from TGNRobot import telethn as tbot
+from JennieRobot import telethn as tbot
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))
@@ -45,14 +45,14 @@ async def _(event):
                 f.write("\n" + title)
                 f.write("\nBook link:- " + link + "\n\n")
 
-        f.write("By @Sophia_Ro_bot")
+        f.write("By @JennieKim_1bot")
         f.close()
-        caption = "A collabration with No-one.\n Join Support @SUPERIOR_SUPPORT"
+        caption = "A collabration with No-one.\n Join Support @lisaSupportchat"
 
         await tbot.send_file(
             event.chat_id,
             "book.txt",
-            caption="**BOOKS GATHERED SUCCESSFULLY!\n\nBY SOPHIA. JOIN THE SUPPORT @SUPERIOR_SUPPORT.**",
+            caption="**BOOKS GATHERED SUCCESSFULLY!\n\nBY Jennie. JOIN THE SUPPORT @LisaSupportChat.**",
         )
         os.remove("book.txt")
         await KkK.delete()
