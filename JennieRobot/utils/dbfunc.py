@@ -1,4 +1,4 @@
-from TGNRobot.mongo import db
+from JennieRobot.mongo import db
 from typing import Dict, List, Union
 
 
