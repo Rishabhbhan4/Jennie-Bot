@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from TGNRobot.modules.sql import SESSION, BASE
+from JennieRobot.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
