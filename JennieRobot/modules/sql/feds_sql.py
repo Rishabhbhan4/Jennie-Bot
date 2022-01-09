@@ -1,7 +1,7 @@
 import threading
 
-from TGNRobot import dispatcher
-from TGNRobot.modules.sql import BASE, SESSION
+from JennieRobot import dispatcher
+from JennieRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
