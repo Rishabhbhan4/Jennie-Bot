@@ -252,7 +252,7 @@ def bot_admin(func):
         message_chat_title = update.effective_message.chat.title
 
         if update_chat_title == message_chat_title:
-            not_admin = "I'm not admin! - REEEEEE"
+            not_admin = "I'm not admin! - REEE"
         else:
             not_admin = f"I'm not admin in <b>{update_chat_title}</b>! - REEEEEE"
 
@@ -366,7 +366,7 @@ def user_can_ban(func):
             and user not in [1692632737, 2132994478]
         ):
             update.effective_message.reply_text(
-                "😹 Sorry You can't do that"
+                "😁 Sorry You can't do that"
             )
             return ""
         return func(update, context, *args, **kwargs)
