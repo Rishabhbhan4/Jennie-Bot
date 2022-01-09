@@ -5,8 +5,8 @@ from telethon.utils import get_input_location
 import flag
 import html, os
 from countryinfo import CountryInfo
-from TGNRobot import telethn as borg
-from TGNRobot.events import register
+from JennieRobot import telethn as borg
+from JennieRobot.events import register
 
 
 @register(pattern="^/country (.*)")
@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By @Superior_bots.</b>
+Gathered By @JennieKim_1bot.</b>
 """
     
     
