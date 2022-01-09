@@ -1,6 +1,6 @@
 import threading
 from sqlalchemy import Column, String
-from TGNRobot.modules.sql import BASE, SESSION
+from JennieRobot.modules.sql import BASE, SESSION
 #   |----------------------------------|
 #   |  Test Module by @Timesisnotwaiting |
 #   |        Kang with Credits         |
