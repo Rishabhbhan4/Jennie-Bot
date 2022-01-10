@@ -1,11 +1,11 @@
 import html
-from TGNRobot.modules.disable import DisableAbleCommandHandler
-from TGNRobot import dispatcher, DRAGONS
-from TGNRobot.modules.helper_funcs.extraction import extract_user
+from JennieRobot.modules.disable import DisableAbleCommandHandler
+from JennieRobot import dispatcher, DRAGONS
+from JennieRobot.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, CallbackQueryHandler, Filters, run_async
-import TGNRobot.modules.sql.approve_sql as sql
-from TGNRobot.modules.helper_funcs.chat_status import user_admin
-from TGNRobot.modules.log_channel import loggable
+import JennieRobot.modules.sql.approve_sql as sql
+from JennieRobot.modules.helper_funcs.chat_status import user_admin
+from JennieRobot.modules.log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest
