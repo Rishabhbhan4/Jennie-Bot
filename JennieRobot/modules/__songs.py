@@ -6,8 +6,8 @@ import requests
 import wget
 from pyrogram import filters
 
-from TGNRobot import pbot as zaid
-from TGNRobot.pyrogramee.dark import get_arg
+from JennieRobot import pbot as Jennie
+from JennieRobot.pyrogramee.dark import get_arg
 
 
 @zaid.on_message(filters.command("saavn"))
