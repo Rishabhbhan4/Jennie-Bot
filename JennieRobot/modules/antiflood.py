@@ -4,15 +4,15 @@ import re
 
 from telegram import Message, Chat, Update, User, ChatPermissions
 
-from TGNRobot import TIGERS, WOLVES, dispatcher
-from TGNRobot.modules.helper_funcs.chat_status import (
+from JennieRobot import TIGERS, WOLVES, dispatcher
+from JennieRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from TGNRobot.modules.log_channel import loggable
-from TGNRobot.modules.sql import antiflood_sql as sql
+from JennieRobot.modules.log_channel import loggable
+from JennieRobot.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import (
     CallbackContext,
@@ -23,10 +23,10 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, escape_markdown
-from TGNRobot.modules.helper_funcs.string_handling import extract_time
-from TGNRobot.modules.connection import connected
-from TGNRobot.modules.helper_funcs.alternate import send_message
-from TGNRobot.modules.sql.approve_sql import is_approved
+from JennieRobot.modules.helper_funcs.string_handling import extract_time
+from JennieRobot.modules.connection import connected
+from JennieRobot.modules.helper_funcs.alternate import send_message
+from JennieRobot.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
