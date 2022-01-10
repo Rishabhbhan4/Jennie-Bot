@@ -1,4 +1,4 @@
-from TGNRobot import LOAD, LOGGER, NO_LOAD
+from JennieRobot import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():
