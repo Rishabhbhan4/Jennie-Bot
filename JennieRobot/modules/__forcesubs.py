@@ -1,4 +1,4 @@
-# credits @InukaAsith, @Mr_dark_prince
+# credits @Rishu_05
 
 import logging
 import time
@@ -12,9 +12,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from TGNRobot import DRAGONS as SUDO_USERS
-from TGNRobot import pbot
-from TGNRobot.modules.sql_extended import forceSubscribe_sql as sql
+from JennieRobot import DRAGONS as SUDO_USERS
+from JennieRobot import pbot
+from JennieRobot.modules.sql_extended import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
