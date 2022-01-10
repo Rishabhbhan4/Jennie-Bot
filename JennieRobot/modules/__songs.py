@@ -10,7 +10,7 @@ from JennieRobot import pbot as Jennie
 from JennieRobot.pyrogramee.dark import get_arg
 
 
-@zaid.on_message(filters.command("saavn"))
+@Jennie.on_message(filters.command("saavn"))
 async def song(client, message):
     message.chat.id
     message.from_user["id"]
@@ -44,7 +44,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from TGNRobot import pbot as zaid
+from JennieRobot import pbot as Jennie
 
 ARQ = "https://thearq.tech/"
 
@@ -98,7 +98,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from TGNRobot import pbot as ASUNA
+from JennieRobot import pbot as ASUNA
 
 ARQ = "https://thearq.tech/"
 
@@ -122,7 +122,7 @@ async def download_song(url):
     return song_name
 
 
-@zaid.on_message(filters.command("deezer"))
+@Jennie.on_message(filters.command("deezer"))
 async def deezer(_, message):
     if len(message.command) < 2:
         await message.reply_text("Download Now Deezer")
