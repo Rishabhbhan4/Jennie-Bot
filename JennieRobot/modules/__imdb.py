@@ -1,11 +1,11 @@
-from TGNRobot import telethn as tbot
+from JennieRobot import telethn as tbot
 import os
 import re
 import bs4
 import requests
 from telethon import types
 from telethon.tl import functions
-from TGNRobot.events import register
+from JennieRobot.events import register
 
 langi = "en"
 
