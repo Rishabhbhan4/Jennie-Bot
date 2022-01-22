@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from TGNRobot import (
+from JennieRobot import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -15,8 +15,8 @@ from TGNRobot import (
     WOLVES,
     dispatcher,
 )
-from TGNRobot.modules.disable import DisableAbleCommandHandler
-from TGNRobot.modules.helper_funcs.chat_status import (
+from JennieRobot.modules.disable import DisableAbleCommandHandler
+from JennieRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
@@ -27,9 +27,9 @@ from TGNRobot.modules.helper_funcs.chat_status import (
     user_can_ban,
     can_delete,
 )
-from TGNRobot.modules.helper_funcs.extraction import extract_user_and_text
-from TGNRobot.modules.helper_funcs.string_handling import extract_time
-from TGNRobot.modules.log_channel import gloggable, loggable
+from JennieRobot.modules.helper_funcs.extraction import extract_user_and_text
+from JennieRobot.modules.helper_funcs.string_handling import extract_time
+from JennieRobot.modules.log_channel import gloggable, loggable
 
 
 @run_async
