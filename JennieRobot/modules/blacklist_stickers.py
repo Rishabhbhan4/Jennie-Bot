@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import TGNRobot.modules.sql.blsticker_sql as sql
-from TGNRobot import LOGGER, dispatcher
-from TGNRobot.modules.connection import connected
-from TGNRobot.modules.disable import DisableAbleCommandHandler
-from TGNRobot.modules.helper_funcs.alternate import send_message
-from TGNRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from TGNRobot.modules.helper_funcs.misc import split_message
-from TGNRobot.modules.helper_funcs.string_handling import extract_time
+import JennieRobot.modules.sql.blsticker_sql as sql
+from JennieRobot import LOGGER, dispatcher
+from JennieRobot.modules.connection import connected
+from JennieRobot.modules.disable import DisableAbleCommandHandler
+from JennieRobot.modules.helper_funcs.alternate import send_message
+from JennieRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from JennieRobot.modules.helper_funcs.misc import split_message
+from JennieRobot.modules.helper_funcs.string_handling import extract_time
 
-from TGNRobot.modules.log_channel import loggable
-from TGNRobot.modules.warns import warn
+from JennieRobot.modules.log_channel import loggable
+from JennieRobot.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
