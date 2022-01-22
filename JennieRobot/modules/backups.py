@@ -6,22 +6,22 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
 import TGNRobot.modules.sql.notes_sql as sql
-from TGNRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from TGNRobot.__main__ import DATA_IMPORT
-from TGNRobot.modules.helper_funcs.chat_status import user_admin
-from TGNRobot.modules.helper_funcs.alternate import typing_action
+from JennieRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from JennieRobot.__main__ import DATA_IMPORT
+from JennieRobot.modules.helper_funcs.chat_status import user_admin
+from JennieRobot.modules.helper_funcs.alternate import typing_action
 
-# from TGNRobot.modules.rules import get_rules
-import TGNRobot.modules.sql.rules_sql as rulessql
+# from JennieRobot.modules.rules import get_rules
+import JennieRobot.modules.sql.rules_sql as rulessql
 
-# from TGNRobot.modules.sql import warns_sql as warnssql
-import TGNRobot.modules.sql.blacklist_sql as blacklistsql
-from TGNRobot.modules.sql import disable_sql as disabledsql
+# from JennieRobot.modules.sql import warns_sql as warnssql
+import JennieRobot.modules.sql.blacklist_sql as blacklistsql
+from JennieRobot.modules.sql import disable_sql as disabledsql
 
-# from TGNRobot.modules.sql import cust_filters_sql as filtersql
-# import TGNRobot.modules.sql.welcome_sql as welcsql
-import TGNRobot.modules.sql.locks_sql as locksql
-from TGNRobot.modules.connection import connected
+# from JennieRobot.modules.sql import cust_filters_sql as filtersql
+# import JennieRobot.modules.sql.welcome_sql as welcsql
+import JennieRobot.modules.sql.locks_sql as locksql
+from JennieRobot.modules.connection import connected
 
 
 @run_async
@@ -341,15 +341,15 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("TGNRobot{}.backup".format(chat_id), "rb"),
-        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `TGNRobot-Backup` was specially made for notes 📚.".format(
+        document=open("JennieRobot{}.backup".format(chat_id), "rb"),
+        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `JennieRobot-Backup` was specially made for notes 📚.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("TGNRobot{}.backup".format(chat_id))  # Cleaning file
+    os.remove("JennieRobot{}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
