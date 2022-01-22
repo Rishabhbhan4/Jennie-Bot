@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import TGNRobot.modules.sql.blacklist_sql as sql
-from TGNRobot import dispatcher, LOGGER
-from TGNRobot.modules.disable import DisableAbleCommandHandler
-from TGNRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from TGNRobot.modules.helper_funcs.extraction import extract_text
-from TGNRobot.modules.helper_funcs.misc import split_message
-from TGNRobot.modules.log_channel import loggable
-from TGNRobot.modules.warns import warn
-from TGNRobot.modules.helper_funcs.string_handling import extract_time
-from TGNRobot.modules.connection import connected
-from TGNRobot.modules.sql.approve_sql import is_approved
-from TGNRobot.modules.helper_funcs.alternate import send_message, typing_action
+import JennieRobot.modules.sql.blacklist_sql as sql
+from JennieRobot import dispatcher, LOGGER
+from JennieRobot.modules.disable import DisableAbleCommandHandler
+from JennieRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from JennieRobot.modules.helper_funcs.extraction import extract_text
+from JennieRobot.modules.helper_funcs.misc import split_message
+from JennieRobot.modules.log_channel import loggable
+from JennieRobot.modules.warns import warn
+from JennieRobot.modules.helper_funcs.string_handling import extract_time
+from JennieRobot.modules.connection import connected
+from JennieRobot.modules.sql.approve_sql import is_approved
+from JennieRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
