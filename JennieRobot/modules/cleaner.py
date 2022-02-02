@@ -1,15 +1,15 @@
 
 import html
 
-from TGNRobot import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from TGNRobot.modules.disable import DisableAbleCommandHandler
-from TGNRobot.modules.helper_funcs.chat_status import (
+from JennieRobot import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from JennieRobot.modules.disable import DisableAbleCommandHandler
+from JennieRobot.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from TGNRobot.modules.sql import cleaner_sql as sql
+from JennieRobot.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
