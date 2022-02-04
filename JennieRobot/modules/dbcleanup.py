@@ -1,9 +1,9 @@
 from time import sleep
 
-import TGNRobot.modules.sql.global_bans_sql as gban_sql
-import TGNRobot.modules.sql.users_sql as user_sql
-from TGNRobot import DEV_USERS, OWNER_ID, dispatcher
-from TGNRobot.modules.helper_funcs.chat_status import dev_plus
+import JennieRobot.modules.sql.global_bans_sql as gban_sql
+import JennieRobot.modules.sql.users_sql as user_sql
+from JennieRobot import DEV_USERS, OWNER_ID, dispatcher
+from JennieRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
