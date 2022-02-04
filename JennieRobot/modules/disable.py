@@ -20,7 +20,7 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
 
-    from TGNRobot.modules.helper_funcs.chat_status import (
+    from JennieRobot.modules.helper_funcs.chat_status import (
         connection_status,
         is_user_admin,
         user_admin,
