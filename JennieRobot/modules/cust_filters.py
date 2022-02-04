@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from TGNRobot import dispatcher, LOGGER, DRAGONS
-from TGNRobot.modules.disable import DisableAbleCommandHandler
-from TGNRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from TGNRobot.modules.helper_funcs.chat_status import user_admin
-from TGNRobot.modules.helper_funcs.extraction import extract_text
-from TGNRobot.modules.helper_funcs.filters import CustomFilters
-from TGNRobot.modules.helper_funcs.misc import build_keyboard_parser
-from TGNRobot.modules.helper_funcs.msg_types import get_filter_type
-from TGNRobot.modules.helper_funcs.string_handling import (
+from JennieRobot import dispatcher, LOGGER, DRAGONS
+from JennieRobot.modules.disable import DisableAbleCommandHandler
+from JennieRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from JennieRobot.modules.helper_funcs.chat_status import user_admin
+from JennieRobot.modules.helper_funcs.extraction import extract_text
+from JennieRobot.modules.helper_funcs.filters import CustomFilters
+from JennieRobot.modules.helper_funcs.misc import build_keyboard_parser
+from JennieRobot.modules.helper_funcs.msg_types import get_filter_type
+from JennieRobot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from TGNRobot.modules.sql import cust_filters_sql as sql
+from JennieRobot.modules.sql import cust_filters_sql as sql
 
-from TGNRobot.modules.connection import connected
+from JennieRobot.modules.connection import connected
 
-from TGNRobot.modules.helper_funcs.alternate import send_message, typing_action
+from JennieRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
