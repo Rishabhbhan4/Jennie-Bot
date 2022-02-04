@@ -6,8 +6,8 @@ import textwrap
 import traceback
 from contextlib import redirect_stdout
 
-from TGNRobot import LOGGER, dispatcher
-from TGNRobot.modules.helper_funcs.chat_status import dev_plus
+from JennieRobot import LOGGER, dispatcher
+from JennieRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
